@@ -32,7 +32,20 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Admin.cpp" />
+		<Unit filename="Admin.h" />
+		<Unit filename="BookingSystem.cpp" />
+		<Unit filename="BookingSystem.h" />
+		<Unit filename="Customer.cpp" />
+		<Unit filename="Customer.h" />
+		<Unit filename="User.h" />
+		<Unit filename="bookings.txt" />
+		<Unit filename="data/bookings.txt" />
+		<Unit filename="data/movies.txt" />
+		<Unit filename="data/users.txt" />
 		<Unit filename="main.cpp" />
+		<Unit filename="movies.txt" />
+		<Unit filename="users.txt" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
