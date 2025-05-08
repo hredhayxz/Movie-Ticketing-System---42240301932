@@ -6,7 +6,7 @@
 
 #ifndef BOOKINGSYSTEM_H
 #define BOOKINGSYSTEM_H
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 
 class BookingSystem
