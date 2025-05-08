@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1746719208 source:d:\movie ticketing system\movie ticketing system - 42240301932\admin.cpp
+	"Admin.h"
+	"BookingSystem.h"
+	<bits/stdc++.h>
+
+1746719068 d:\movie ticketing system\movie ticketing system - 42240301932\admin.h
+	"User.h"
+
+1746719048 d:\movie ticketing system\movie ticketing system - 42240301932\user.h
+	<bits/stdc++.h>
+
+1746719657 d:\movie ticketing system\movie ticketing system - 42240301932\bookingsystem.h
+	<bits/stdc++.h>
+
+1746719734 source:d:\movie ticketing system\movie ticketing system - 42240301932\bookingsystem.cpp
+	"BookingSystem.h"
+	<bits/stdc++.h>
+
+1746719506 source:d:\movie ticketing system\movie ticketing system - 42240301932\customer.cpp
+	"Customer.h"
+	"BookingSystem.h"
+	<bits/stdc++.h>
+
+1746719348 d:\movie ticketing system\movie ticketing system - 42240301932\customer.h
+	"User.h"
+
+1746718386 source:d:\movie ticketing system\movie ticketing system - 42240301932\main.cpp
+	<iostream>
+	"User.h"
+	"Admin.h"
+	"Customer.h"
+
