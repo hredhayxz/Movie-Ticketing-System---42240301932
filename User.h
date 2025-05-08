@@ -12,12 +12,12 @@ using namespace std;
 
 class User
 {
-protected:
-    string username, password;
-public:
-    virtual bool login() = 0;
-    virtual void displayMenu() = 0;
-    virtual ~User() {}
+    protected:
+        string username, password;
+    public:
+        virtual bool login() = 0;
+        virtual void displayMenu() = 0;
+        virtual ~User() {}
 };
 
 #endif
