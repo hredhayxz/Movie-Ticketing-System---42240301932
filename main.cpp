@@ -4,20 +4,40 @@
 #include "Customer.h"
 using namespace std;
 
-int main() {
+int main()
+{
     User* user = nullptr;
     int choice;
     cout << "\n1. Admin Login\n2. Customer Login\n3. Register Customer\nEnter choice: ";
     cin >> choice;
 
-    if (choice == 1) {
+    if (choice == 1)
+    {
         user = new Admin();
-        if (user->login()) user->displayMenu();
-    } else if (choice == 2) {
-        user = new Customer();
-        if (user->login()) user->displayMenu();
-    } else if (choice == 3) {
-        Customer::registerCustomer();
+        if (user->login())
+        {
+
+            user->displayMenu();
+        }
+    }
+    else
+    {
+        if (choice == 2)
+        {
+            user = new Customer();
+            if (user->login())
+            {
+
+                user->displayMenu();
+            }
+        }
+        else
+        {
+            if (choice == 3)
+            {
+                Customer::registerCustomer();
+            }
+        }
     }
 
     delete user;
