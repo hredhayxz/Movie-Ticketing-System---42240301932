@@ -1,4 +1,11 @@
-#include <bits/stdc++.h>
+/*
+    main.cpp
+    ----------
+    Entry point of the Movie Ticketing System.
+    Handles user choice for login/registration and directs to Admin or Customer menu.
+*/
+
+#include <iostream>
 #include "User.h"
 #include "Admin.h"
 #include "Customer.h"
@@ -8,6 +15,7 @@ int main()
 {
     User* user = nullptr;
     int choice;
+
     cout << "\n1. Admin Login\n2. Customer Login\n3. Register Customer\nEnter choice: ";
     cin >> choice;
 
@@ -16,7 +24,6 @@ int main()
         user = new Admin();
         if (user->login())
         {
-
             user->displayMenu();
         }
     }
@@ -27,7 +34,6 @@ int main()
             user = new Customer();
             if (user->login())
             {
-
                 user->displayMenu();
             }
         }
